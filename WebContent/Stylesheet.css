@@ -1,0 +1,8 @@
+body { font-family: Arial, Helvetica, sans-serif; margin: 20px; }
+a { margin-right: 10px; color: #1a4a8a; }
+h2 { margin-top: 20px; }
+table td { padding: 4px 8px; }
+input[type="text"] { width: 220px; }
+table.lista { border-collapse: collapse; }
+table.lista th, table.lista td { border: 1px solid #000; padding: 4px 8px; text-align: center; }
+table.lista th { background: #e0e8f5; }
