@@ -29,4 +29,5 @@ public class TipoSeguro {
 	public int getIdTipo() {
 		return idTipo;
 	}
+	
 }
