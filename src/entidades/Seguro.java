@@ -48,9 +48,19 @@ public class Seguro {
 	public void setCostoAsegurado(double costoAsegurado) {
 		this.costoAsegurado = costoAsegurado;
 	}
+	
+	public void setIdSeguro(int idSeguro)
+	{
+		this.idSeguro = idSeguro;
+	}
 
 	public int getIdSeguro() {
 		return idSeguro;
+	}
+	
+	public void setIdTipo(int idTipo)
+	{
+		this.idTipo = idTipo;
 	}
 
 	public int getIdTipo() {

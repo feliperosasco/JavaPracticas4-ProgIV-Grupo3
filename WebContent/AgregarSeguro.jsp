@@ -60,6 +60,11 @@
         </p>
 
     </form>
+    
+    <% if (request.getAttribute("mensaje") != null) { %>
+        <p><strong><%= request.getAttribute("mensaje") %></strong></p>
+    <% } %>
+    
     </div>
 </body>
 </html>
