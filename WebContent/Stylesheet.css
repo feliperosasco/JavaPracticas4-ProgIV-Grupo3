@@ -6,3 +6,34 @@ input[type="text"] { width: 220px; }
 table.lista { border-collapse: collapse; }
 table.lista th, table.lista td { border: 1px solid #000; padding: 4px 8px; text-align: center; }
 table.lista th { background: #e0e8f5; }
+
+/* Estilos para el formulario de Agregar Seguros*/
+.formulario {
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.formulario form p {
+    display: grid;
+    grid-template-columns: 190px 180px;
+    column-gap: 8px;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario select {
+    width: 180px;
+    box-sizing: border-box;
+}
+
+.formulario form p:last-child {
+    display: block;
+    margin-left: 198px;
+    margin-top: 8px;
+}
+
+.formulario input[type="submit"] {
+    padding: 4px 16px;
+}
