@@ -53,17 +53,17 @@ public class TipoSeguroDao {
 		}
 	
 	//prueba codigo
-	public static void main(String[] args) {
+	//public static void main(String[] args) {
 
-        TipoSeguroDao dao = new TipoSeguroDao();
+       // TipoSeguroDao dao = new TipoSeguroDao();
 
-        ArrayList<TipoSeguro> lista = dao.listarTipoSeguro();
+        //ArrayList<TipoSeguro> lista = dao.listarTipoSeguro();
 
-        for (TipoSeguro tipo : lista) {
-            System.out.println(
-                tipo.getIdTipo() + " - " + tipo.getDescripcion()
-            );
-        }
-    }
+        //for (TipoSeguro tipo : lista) {
+        //    System.out.println(
+        //       tipo.getIdTipo() + " - " + tipo.getDescripcion()
+        //    );
+        //}
+   // }
 
 }
